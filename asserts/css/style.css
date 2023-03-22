@@ -3,15 +3,7 @@
   font-family: "PT Sans", sans-serif;
   box-sizing: border-box;
 }
-.text_bold {
-  font-weight: 700;
-  font-size: 50px;
-  line-height: 140%;
-}
-.text_sm {
-  font-weight: 400;
-  line-height: 140%;
-}
+
 
 header {
   display: flex;
@@ -58,8 +50,8 @@ header {
   border-top: 0;
   border-left: 0;
   outline: none;
-  opacity: 0.2;
-  border-color: #333333;
+
+  border-color: #dbdbdb;
 }
 .indents {
   margin-top: 150px;
@@ -97,7 +89,7 @@ h5 {
 }
 .text_grow {
   flex-grow: 1;
-  text-decoration: underline dashed;
+  text-decoration: underline dotted;
   color: #3d348b;
 }
 .services-info {
@@ -128,6 +120,8 @@ h5 {
   flex-wrap: nowrap;
   height: 205px;
   font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
 }
 .openservices {
   display: flex;
@@ -138,6 +132,7 @@ h5 {
   display: flex;
   align-items: center;
   gap: 20px;
+  font-weight: 700;
 }
 .frame {
   justify-content: center;
