@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 
-
 header {
   display: flex;
   justify-content: space-evenly;
@@ -80,13 +79,6 @@ main {
   flex-direction: column;
   line-height: 140%;
 }
-h2 {
-  font-size: 50px;
-  line-height: 140%;
-}
-h5 {
-  font-size: 16px;
-}
 .text_grow {
   flex-grow: 1;
   text-decoration: underline dotted;
@@ -106,23 +98,6 @@ h5 {
   justify-content: center;
   align-items: center;
 }
-.services1 {
-  padding-left: 5px;
-  display: flex;
-  flex-direction: column;
-  align-self: center;
-  align-items: flex-start;
-  padding: 30px 35px;
-  justify-content: space-between;
-  background: #5db7de;
-  border-radius: 20px;
-  width: 306px;
-  flex-wrap: nowrap;
-  height: 205px;
-  font-size: 13px;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-}
 .openservices {
   display: flex;
   color: #fff;
@@ -132,7 +107,6 @@ h5 {
   display: flex;
   align-items: center;
   gap: 20px;
-  font-weight: 700;
 }
 .frame {
   justify-content: center;
@@ -230,7 +204,7 @@ h5 {
   gap: 20px 20px;
   padding: 0 50px 50px 50px;
 }
-.card {
+.card-data {
   display: flex;
   flex-direction: column;
   border-radius: 20px;
@@ -240,7 +214,7 @@ h5 {
 .photo {
   width: 100%;
 }
-.card:hover {
+.card-data:hover {
   box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.5);
 }
 

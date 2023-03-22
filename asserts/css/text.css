@@ -1,23 +1,25 @@
-.text_bold {
+.text_lg {
   font-weight: 700;
   font-size: 40px;
   line-height: 140%;
 }
-.text_sm {
+.card-title {
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.text_md {
   font-weight: 400;
   line-height: 140%;
   font-size: 16px;
 }
-.text-card-logo_sm {
+.text_sm {
   font-weight: 700;
   font-size: 13px;
   line-height: 140%;
-
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
 }
-.text-card-info_sm {
+.title_md {
   font-weight: 700;
   font-size: 19px;
   line-height: 140%;
 }
+

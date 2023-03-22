@@ -1,0 +1,19 @@
+.card {
+  padding: 30px 35px;
+  display: flex;
+  flex-direction: column;
+  gap: 118px;
+  border-radius: 20px;
+}
+.card_purple {
+  background-color: #3d348b;
+}
+.card_blue {
+  background-color: #5db7de;
+}
+.card-wrap {
+  flex: 1 1 auto;
+}
+.card_sm{
+    flex-basis: 306px;
+}
