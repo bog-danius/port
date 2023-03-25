@@ -1,0 +1,42 @@
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  background-color: #eee;
+}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+ul.breadcrumb li + li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+ul.breadcrumb li a {
+  color: #000000;
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+  color: #3d348b;
+  text-decoration: underline;
+}
+.input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.input-choice {
+  gap: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.display {
+  display: flex;
+}
+.button {
+  display: flex;
+  justify-content: center;
+}
