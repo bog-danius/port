@@ -68,6 +68,7 @@ main {
   padding: 0 20px;
   max-width: 1300px;
   margin: auto;
+  gap: 60px;
 }
 .flex {
   display: flex;
@@ -151,13 +152,14 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: end;
+  justify-content: center;
 }
 
 .rectangle27 {
   background-color: #f5f5f9;
   padding: 100px 312px 100px 312px;
 }
+
 .videoport {
   display: flex;
   justify-content: center;
@@ -177,20 +179,20 @@ main {
 .news {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .block-news {
   display: flex;
   align-items: center;
   justify-content: space-around;
   gap: 20px 20px;
-  padding: 0 50px 50px 50px;
+  padding: 0 0px 50px 0px;
 }
 .card-data {
   display: flex;
   flex-direction: column;
   border-radius: 20px;
-
+  gap: 20px;
   transition: 0.3s;
 }
 .photo {
@@ -201,8 +203,10 @@ main {
 }
 
 .container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
   padding: 15px;
-  gap: 10px;
 }
 .footer {
   padding: 49px;
@@ -210,11 +214,17 @@ main {
   display: flex;
   background-color: #3d348b;
   opacity: 0.85;
+  white-space: nowrap;
   justify-content: space-evenly;
 }
 .rectangle29 {
   background: #3d348b;
   color: #fff;
+}
+.indents {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 .column {
   display: flex;
@@ -227,14 +237,8 @@ main {
   gap: 30px;
 }
 
-.text-news2 {
-  font-weight: 700;
+.text-news-color {
   color: #3d348b;
-  font-size: 16px;
-  line-height: 140%;
-
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
 }
 
 .text-news1 {
@@ -242,7 +246,5 @@ main {
   align-items: center;
   padding-top: 60px;
   margin-bottom: 60px;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 140%;
+
 }
