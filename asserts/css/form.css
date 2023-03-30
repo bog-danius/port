@@ -16,7 +16,7 @@
   width: 20px;
   height: 20px;
   background: #ffffff;
-  border: 2px solid #7e9bbd;
+  border: 2px solid #d6d6d6;
   border-radius: 4px;
   vertical-align: sub;
   margin-right: 5px;
@@ -47,4 +47,20 @@
 
 .form-cols {
   white-space: nowrap;
+}
+.child::file-selector-button {
+  border: 2px solid #5db7de;
+  padding: 8px 16px;
+  border-radius: 10px;
+  background-color: #5db7de;
+  transition: 1s;
+  cursor: pointer;
+}
+.child::file-selector-button:hover {
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.5);
+}
+.child_colums {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
