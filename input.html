@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./asserts/css/text.css" />
     <link rel="stylesheet" href="./asserts/css/card.css" />
     <link rel="stylesheet" href="./asserts/css/input-page.css" />
+    <link rel="stylesheet" href="./asserts/css/form.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -45,111 +46,120 @@
         </li>
       </ul>
     </div>
-    <div>  
-        <div class="input">
-            <div>
-                <h2 class="text_lg">
-                 Запрос ставки и условий погрузочно-разгрузочных работ
-                </h2>
-            </div>
-            <div class="input-choice">
-                <p class="text_sm card-title">
-                    <b>Наименование груза </b><br />
-                    <input type="text" />
-                </p>
-                <p class="text_sm card-title">
-                    <b>Размер партии </b><br />
-                    <input type="text" />
-                </p>
-                <p class="text_sm card-title">
-                    <b>ед. измерения </b><br />
-                    <input type="text" />
-                </p>
-                <p class="text_sm card-title">
-                    <b>Направление перевозки </b><br />
-                    <input type="text" />
-                </p>
-                <p class="text_sm card-title">
-                    <b>Пункт назначения перевозки</b><br />
-                    <input type="text" />
-                </p>
-                <p class="text_sm card-title">
-                    <b>Период поступления груза к перевалке</b><br />
-                    <input type="text" />
-                </p>
-                <p class="text_sm card-title">
-                    <b>Груз поступает в порт</b><br />
-                    <input type="text" />
-                </p>
-                <p class="text_sm card-title">
-                    <b>Груз отправляется из порта</b><br />
-                    <input type="text" />
-                </p>
-                <p class="text_sm card-title">
-                    <b>Размер судовой партии</b><br />
-                    <input type="text" />
-                </p>
-                <p class="text_sm card-title">
-                    <b>Опасность груза (класс)</b><br />
-                    <input type="text" />
-                </p>
-                <p class="text_sm card-title">
-                    <b>Дополнительная информация о грузе</b><br />
-                    <textarea name="comment"></textarea></p>
-                </p>
-                <p class="text_sm card-title"><input type="file " name="photo">
-            </div>      
-        </div>
-
+    <div class="m">
+      <div class="input">
         <div>
-            <h2 class="text_md"> Просим сообщить:</h2>
-            <p class="text_sm card-title display">
-                <input type="checkbox">
-                <b>Ставку ПРР</b><br />
+          <h2 class="text_lg">
+            Запрос ставки и условий погрузочно-разгрузочных работ
+          </h2>
+        </div>
+        <div class="input-choice card card_blue">
+          <div class="text_sm card-title black-text">
+            <b>Наименование груза </b><br />
+            <input type="text" />
+          </div>
+          <div class="text_sm card-title black-text">
+            <b>Размер партии </b><br />
+            <input type="text" />
+          </div>
+          <div class="text_sm card-title black-text">
+            <b>ед. измерения </b><br />
+            <input type="text" />
+          </div>
+          <div class="text_sm card-title black-text">
+            <b>Направление перевозки </b><br />
+            <input type="text" />
+          </div>
+          <div class="text_sm card-title black-text">
+            <b>Пункт назначения перевозки</b><br />
+            <input type="text" />
+          </div>
+          <div class="text_sm card-title black-text">
+            <b>Период поступления груза к перевалке</b><br />
+            <input type="text" />
+          </div>
+          <div class="text_sm card-title black-text">
+            <b>Груз поступает в порт</b><br />
+            <input type="text" />
+          </div>
+          <div class="text_sm card-title black-text">
+            <b>Груз отправляется из порта</b><br />
+            <input type="text" />
+          </div>
+          <div class="text_sm card-title black-text">
+            <b>Размер судовой партии</b><br />
+            <input type="text" />
+          </div>
+          <div class="text_sm card-title black-text">
+            <b>Опасность груза (класс)</b><br />
+            <input type="text" />
+          </div>
+          <div class="text_sm card-title black-text">
+            <b>Дополнительная информация о грузе</b><br />
+            <textarea name="comment"></textarea>
+          </div>
+        </div>
+      </div>
 
-            </p>
-            <p class="text_sm card-title display">
-                <input type="checkbox">
-                <b>Срок технологического накопления груза</b><br />
-                
-            </p>
-            <p class="text_sm card-title display">
-                <input type="checkbox">
-                <b>Ставку хранения груза сверх срока технологического накопления</b><br />
-                
-            </p>
-            <p class="text_sm card-title display">
-                <input type="checkbox">
-                <b>Возможность приёма и перевалки груза в указанные сроки</b><br />
-                
-            </p>
+      <div>
+        <h2 class="text_md">Просим сообщить:</h2>
+
+        <div class="text_sm card-title display form-group">
+          <label>
+            <input type="checkbox" class="real-checkbox" />
+            <span class="custom-checkbox"> </span>
+            <b>Ставку ПРР</b><br />
+          </label>
         </div>
-        <div>
-        <h2 class="text_md"> Информация для обратной связи:</h2>
-            <p class="text_sm card-title">
-                <b>Имя, фамилия</b><br />
-                <input type="text" />
-            </p>
-            <p class="text_sm card-title">
-                <b>Название компании </b><br />
-                <input type="text" />
-            </p>
-            <p class="text_sm card-title">
-                <b>Номер телефона/факса</b><br />
-                <input type="text" />
-            </p>
-            <p class="text_sm card-title">
-                <b>Адрес эл. почты </b><br />
-                <input type="text" />
-            </p>
+        <div class="text_sm card-title display form-group">
+          <label>
+            <input type="checkbox" class="real-checkbox" />
+            <span class="custom-checkbox"> </span>
+            <b>Срок технологического накопления груза</b><br />
+          </label>
         </div>
-        <div class="button">
+        <div class="text_sm card-title display form-group">
+          <label>
+            <input type="checkbox" class="real-checkbox" />
+            <span class="custom-checkbox"> </span>
+            <b>Ставку хранения груза сверх срока технологического накопления</b
+            ><br />
+          </label>
+        </div>
+        <div class="text_sm card-title display form-group">
+          <label>
+            <input type="checkbox" class="real-checkbox" />
+            <span class="custom-checkbox"> </span>
+            <b>Возможность приёма и перевалки груза в указанные сроки</b><br />
+          </label>
+        </div>
+      </div>
+      <div>
+        <h2 class="text_md">Информация для обратной связи:</h2>
+        <p class="text_sm card-title">
+          <b>Имя, фамилия</b><br />
+          <input type="text" />
+        </p>
+        <p class="text_sm card-title">
+          <b>Название компании </b><br />
+          <input type="text" />
+        </p>
+        <p class="text_sm card-title">
+          <b>Номер телефона/факса</b><br />
+          <input type="text" />
+        </p>
+        <p class="text_sm card-title">
+          <b>Адрес эл. почты </b><br />
+          <input type="text" />
+        </p>
+      </div>
+      <div class="button">
         <button>
-            отправить
-            <img src="./asserts/img/Group 7.svg" >
+          отправить
+          <img src="./asserts/img/Group 7.svg" />
         </button>
-        </div>
-</div>
+      </div>
+    </div>
     <div class="footer">
       <p class="text_md">
         <img src="./asserts/img/Vector (3).svg" />123456,г. Тавима, ул. Морская,

@@ -36,3 +36,9 @@ li {
   margin-left: 0px;
   padding-top: 18px;
 }
+.black-text{
+  color: black;
+}
+.white-text{
+  color: #ffffff;
+}
